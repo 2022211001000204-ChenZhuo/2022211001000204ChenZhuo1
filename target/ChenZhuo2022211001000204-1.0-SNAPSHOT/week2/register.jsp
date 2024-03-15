@@ -11,14 +11,14 @@
     <title>Login in</title>
 </head>
 <body>
-    <form>
-        账号:<Input type="text" required="true" name="username" placeholder="username"><br>
-        密码:<Input type="password" required="true" name="password" minlength="8" placeholder="password"><br>
-        邮箱:<Input type="text" required="true" name="email" size=20 placeholder="email"><br>
-        性别:男<input type="radio" id="Choice1" name="contact" value="男" />
-        女<input type="radio" id="Choice2" name="contact" value="女" /><br>
-        生日:<Input type="text" required="true" name="birthday" size=20 placeholder="Date of birth(yyyy-mm-dd)"><br>
-        登录:<button type="submit">提交</button>
+    <form method="post" action="/register">
+        Username:<Input type="text" required="true" name="username" placeholder="username"><br>
+        Password:<Input type="password" required="true" name="password" placeholder="password"><br>
+        Email:<Input type="text" required="true" name="email" placeholder="email"><br>
+        Gender:Male<input type="radio" id="Choice1" name="contact" value="Male" />
+        Female<input type="radio" id="Choice2" name="contact" value="Female" /><br>
+        Birthday:<Input type="text" required="true" name="birthday" size=20 placeholder="Date of birth(yyyy-mm-dd)"><br>
+        Login in:<button type="submit">提交</button>
     </form>
 </body>
 </html>
